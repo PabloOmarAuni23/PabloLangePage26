@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Las Palmeras">
+  <circle cx="60" cy="60" r="58" fill="#2a2a2a" stroke="#e8913a" stroke-width="2"/>
+  <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <path fill="#e8913a" d="M60 22c-2 18-14 28-14 42a14 14 0 0 0 28 0c0-14-12-24-14-42zm0 8c1.5 12 8 20 10 30-3-2-6-2-10 0 2-10 8.5-18 10-30z"/>
+  <text x="60" y="88" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="7" font-weight="700" letter-spacing="0.5">LAS PALMERAS</text>
+  <text x="60" y="98" text-anchor="middle" fill="#e8913a" font-family="Arial,sans-serif" font-size="5.5" letter-spacing="0.3">PAN &amp; CAF�</text>
+</svg>
