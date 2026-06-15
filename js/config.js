@@ -14,6 +14,6 @@ window.MENU_PUBLIC_URL = "https://palmerasqr.netlify.app";
  * 5. Pegala abajo.
  *
  * Tambien sirve una URL asi:
- * https://docs.google.com/spreadsheets/d/TU_ID/export?format=csv&gid=0
+ * https://docs.google.com/spreadsheets/d/1mhVMp5gw2Jl9CwOOLpHHXVPhCy7jPaV-A-gVzvYI6s4/edit?usp=drive_link
  */
-window.MENU_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1GXJ9RTwckpHsYMl1Ovd6YZMgvfZqerKmWiONzBvndC0/export?format=csv&gid=1811069958";
+window.MENU_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1mhVMp5gw2Jl9CwOOLpHHXVPhCy7jPaV-A-gVzvYI6s4/edit?usp=drive_link";

@@ -174,7 +174,7 @@
 
     const gidMatch = raw.match(/[?#&]gid=([0-9]+)/);
     const gid = gidMatch ? gidMatch[1] : "0";
-    return `https://docs.google.com/spreadsheets/d/${id}/export?format=csv&gid=${gid}`;
+    return 'data/menu-plantilla.csv';
   }
 
   async function loadFallbackCsv() {
