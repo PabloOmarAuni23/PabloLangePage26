@@ -178,7 +178,7 @@
   }
 
   async function loadFallbackCsv() {
-    const res = await fetch("data/carta-plantilla.csv?t=" + Date.now(), { cache: "no-store" });
+    const res = await fetch("data/menu-plantilla.csv?t=" + Date.now(), { cache: "no-store" });
     if (!res.ok) throw new Error("Sin datos locales");
     return res.text();
   }
