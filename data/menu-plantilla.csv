@@ -1,6 +1,6 @@
 seccion_id,titulo_seccion,nota,producto,descripcion,precio,orden,dos_columnas,linea_acento,par_grupo,nav_etiqueta
 desayunos,Desayunos y meriendas,(Todas las opciones incluyen una infusión),,,,0,,si,,Desayunos
-desayunos,,,Clásico,"Dos medialunas o tortillas, jugo de naranja",4000,1,,,,
+desayunos,,,Clásico,"Dos medialunas o tortillas, jugo de naranja",3000,1,,,,
 desayunos,,,Light Palmeras,"3 tostadas, queso crema y mermelada, jugo de naranja, yogurt, cereal",4000,2,,,,
 desayunos,,,De campo,"Tostada de pan de campo o rescoldo, manteca y dulce de leche, jugo de naranja",4000,3,,,,
 desayunos,,,Especial tostado,"Jamón, queso, tomate y orégano",5000,4,,,,
