@@ -147,8 +147,8 @@
   }
 
   async function loadCsvText() {
-    const url = normalizeSheetCsvUrl(window.MENU_SHEET_CSV_URL || "");
-    if (!url || url.includes("TU_ID_AQUI")) return null;
+     const url = normalizeSheetCsvUrl(window.MENU_SHEET_CSV_URL || "");
+     if (!url || url.includes("TU_ID_AQUI")) return null;
     const sep = url.includes("?") ? "&" : "?";
     const res = await fetch(url + sep + "t=" + Date.now(), { cache: "no-store" });
     if (!res.ok) throw new Error("No se pudo leer la planilla");
@@ -170,11 +170,11 @@
     const idOnly = raw.match(/^[a-zA-Z0-9_-]{20,}$/);
     const sheetUrl = raw.match(/\/spreadsheets\/d\/([a-zA-Z0-9_-]+)/);
     const id = idOnly ? raw : sheetUrl ? sheetUrl[1] : "";
-    if (!id) return raw;
-
-    const gidMatch = raw.match(/[?#&]gid=([0-9]+)/);
-    const gid = gidMatch ? gidMatch[1] : "0";
-    return 'data/menu-plantilla.csv';
+    
+    if (id) {
+      return `https://docs.google.com/spreadsheets/d/${id}/export?format=csv`;
+    }
+    return "data/menu-plantilla.csv";
   }
 
   async function loadFallbackCsv() {

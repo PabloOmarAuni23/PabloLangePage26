@@ -1,8 +1,8 @@
 /**
  * URL publica del sitio, la que va en el QR impreso.
- * Ejemplo: "https://palmerasqr.netlify.app/"
+ * Ejemplo: "https://pabloomarauni23.github.io/PabloLangePage26//"
  */
-window.MENU_PUBLIC_URL = "https://palmerasqr.netlify.app";
+window.MENU_PUBLIC_URL = "https://pabloomarauni23.github.io/PabloLangePage26/";
 
 /**
  * PLANILLA DE GOOGLE: precios en vivo sin subir la web otra vez.
@@ -16,4 +16,6 @@ window.MENU_PUBLIC_URL = "https://palmerasqr.netlify.app";
  * Tambien sirve una URL asi:
  * https://docs.google.com/spreadsheets/d/1mhVMp5gw2Jl9CwOOLpHHXVPhCy7jPaV-A-gVzvYI6s4/edit?usp=drive_link
  */
-window.MENU_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1mhVMp5gw2Jl9CwOOLpHHXVPhCy7jPaV-A-gVzvYI6s4/edit?usp=drive_link";
+window.MENU_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1mhVMp5gw2Jl9CwOOLpHHXVPhCy7jPaV-A-gVzvYI6s4/edit?usp=sharing";
+
+window.MENU_SHEET_EDIT_URL = "https://docs.google.com/spreadsheets/d/1mhVMp5gw2Jl9CwOOLpHHXVPhCy7jPaV-A-gVzvYI6s4/edit?usp=drive_link";
