@@ -6,9 +6,7 @@
 
   const configured =
     typeof window.MENU_PUBLIC_URL === "string" && window.MENU_PUBLIC_URL.trim();
-  const menuUrl =
-    configured ||
-    new URL("index.html", window.location.href.replace(/\/[^/]*$/, "/").replace(/private\/?$/, "/")).href;
+  const menuUrl = window.MENU_PUBLIC_URL;
 
   function loadScript(src) {
     return new Promise((resolve, reject) => {
